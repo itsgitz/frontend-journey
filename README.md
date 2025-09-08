@@ -1,2 +1,3 @@
 # frontend-journey
-My journey on learning to become a frontend developer
+
+My journey on learning to become a fullstack developer!
