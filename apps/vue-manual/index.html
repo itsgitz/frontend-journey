@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app">{{ message}}</div>
+    <script type="module">
+      import {
+        createApp,
+        ref,
+      } from "https://unpkg.com/vue@3/dist/vue.esm-browser.js";
+
+      createApp({
+        setup() {
+          const message = ref("Hello from Vue Manual!");
+
+          return {
+            message,
+          };
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>
